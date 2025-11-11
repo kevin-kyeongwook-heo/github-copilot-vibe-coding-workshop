@@ -1,0 +1,94 @@
+.name-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.name-input-modal {
+  width: 538px;
+  height: 261px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 46px;
+  box-sizing: border-box;
+}
+
+.modal-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.username-input-wrapper {
+  width: 446px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+
+.username-input {
+  width: 100%;
+  height: 100%;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.username-input::placeholder {
+  color: #878787;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.username-input:focus {
+  outline: 2px solid #00B7FF;
+}
+
+.username-error {
+  color: #FF4444;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.ok-button {
+  width: 296px;
+  height: 40px;
+  background-color: #00B7FF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  transition: background-color 0.2s;
+}
+
+.ok-button:hover {
+  background-color: #0095CC;
+}
+
+.ok-button:active {
+  background-color: #007BA8;
+}
